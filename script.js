@@ -197,4 +197,3 @@ canvas.addEventListener('mousemove', (event) => {
 updateScoreboard();
 resetBall(1);
 requestAnimationFrame(gameLoop);
-
