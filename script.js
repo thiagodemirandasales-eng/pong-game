@@ -63,7 +63,6 @@ function handlePlayerInput() {
   const userMove = (keys.ArrowUp ? -1 : 0) + (keys.ArrowDown ? 1 : 0);
   leftPaddle.dy = userMove * paddleSpeed;
 
-  // Mouse movement also controls the paddle
   const mouseTarget = mouseY - leftPaddle.height / 2;
   leftPaddle.y += (mouseTarget - leftPaddle.y) * 0.18;
 
